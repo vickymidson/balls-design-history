@@ -14,10 +14,13 @@
     { title: 'Terms and conditions', path: '/terms-conditions'}
   ]
 */
-const paths = [{
-  title: 'Index page',
-  path: '/'
-}]
+const paths = [
+  { title: 'Start page', path: '/' },
+  { title: 'How many balls can you juggle?', path: '/juggling-balls' },
+  { title: 'Whats your most impressive trick?', path: '/juggling-trick' },
+  { title: 'Check your answers', path: '/check-answers' },
+  { title: 'Confirmation', path: '/confirmation' }
+]
 const { DateTime } = require('luxon')
 const domain = 'http://localhost:3000'
 
